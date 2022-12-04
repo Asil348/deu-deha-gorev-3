@@ -5,9 +5,10 @@
 ---
 
 1. Projeyi klonlayın.
-2. `yarn install`
-3. `yarn start`
-4. Başka bir konsolda: `yarn android` veya `yarn ios`
+1. `android/app/google-services.json` dosyasını ekleyin.
+1. `yarn install`
+1. `yarn start`
+1. Başka bir konsolda: `yarn android` veya `yarn ios`
 ---
 
 ## Mantık
