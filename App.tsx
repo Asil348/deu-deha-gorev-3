@@ -1,13 +1,3 @@
-/**
- * Sample React Native App
- * https://github.com/facebook/react-native
- *
- * Generated with the TypeScript template
- * https://github.com/react-native-community/react-native-template-typescript
- *
- * @format
- */
-
 import React, { useEffect, useState } from 'react';
 import { NativeBaseProvider } from 'native-base';
 import auth from '@react-native-firebase/auth';
@@ -37,7 +27,7 @@ const App = () => {
     return subscriber; // unsubscribe on unmount
   }, []);
 
-  if (initializing) return null;
+  if (initializing) return null; // if firebase is still initializing, don't render anything
 
   return (
     <UserContext.Provider value={{ user, setUser }}>
