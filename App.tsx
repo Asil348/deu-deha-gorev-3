@@ -2,7 +2,6 @@ import React, { useEffect, useState } from 'react';
 import { NativeBaseProvider } from 'native-base';
 import auth from '@react-native-firebase/auth';
 
-import Profile from './pages/profile/Profile';
 import Auth from './pages/Auth';
 import { UserContext } from './contexts/UserContext';
 import { GoogleSignin } from '@react-native-google-signin/google-signin';

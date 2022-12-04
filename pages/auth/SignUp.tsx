@@ -1,7 +1,7 @@
 import { SafeAreaView, StatusBar, useColorScheme } from 'react-native';
 import React, { useState } from 'react';
 import { Colors } from 'react-native/Libraries/NewAppScreen';
-import { Button, Input, Text, View } from 'native-base';
+import { Button, Input, View } from 'native-base';
 import auth from '@react-native-firebase/auth';
 import onGoogleButtonPress from '../../lib/onGoogleButtonPress';
 
@@ -22,7 +22,7 @@ const SignUp = ({ navigation }: any) => {
     if (email === '' || password === '') {
       return setIsInvalid(true);
     }
-    
+
     auth()
       .createUserWithEmailAndPassword(email, password)
       .then(() => {

@@ -1,8 +1,7 @@
-import React, { useContext, useState } from 'react';
-import { View, Text, StatusBar, Input, Button } from 'native-base';
+import React, { useState } from 'react';
+import { View, StatusBar, Input, Button } from 'native-base';
 import { useColorScheme, SafeAreaView } from 'react-native';
 import { Colors } from 'react-native/Libraries/NewAppScreen';
-import { UserContext } from '../../contexts/UserContext';
 import auth from '@react-native-firebase/auth';
 import onGoogleButtonPress from '../../lib/onGoogleButtonPress';
 
