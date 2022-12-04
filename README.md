@@ -9,6 +9,8 @@
 1. `yarn install`
 1. `yarn start`
 1. Başka bir konsolda: `yarn android` veya `yarn ios`
+1. `cd android && ./gradlew assembleRelease` komutuyla production build oluşturabilirsiniz. (android/app/build/outputs/apk/release/app-release.apk)
+1. `cd android && ./gradlew assembleDebug` komutuyla debug build oluşturabilirsiniz. (android/app/build/outputs/apk/debug/app-debug.apk)
 ---
 
 ## Mantık
