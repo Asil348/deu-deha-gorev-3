@@ -6,6 +6,7 @@
 
 1. Projeyi klonlayın.
 1. `android/app/google-services.json` dosyasını ekleyin.
+1. `pages/App.tsx` dosyasında 12. satırı kendi google webClientId'niz ile değiştirin.
 1. `yarn install`
 1. `yarn start`
 1. Başka bir konsolda: `yarn android` veya `yarn ios`
